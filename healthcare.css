@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#navbar{
+    width: 100vw;
+    height: 5rem;
+    background-color: #0077B6;
+    display:flex ;
+}
+
+#img-logo{
+    background-image: url("Health\ Care.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 5rem;
+    width: 18rem;
+    margin-left: 60px;
+}
+
+#upper-nav{
+    width: 73vw;
+    height: 3rem;
+    background-color: #608AB0;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.up-nav{
+    font-size: 20px;
+    color: white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.up-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#text3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.emergency-button{
+  border: 3px solid red;
+  border-radius: 5px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  padding: 7px;
+}
+
+#Emergency{
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
+
+
+#mid{
+    background-color: #A9D6E5;
+    width: 100vw;
+    height: 40rem;
+    padding-top: 3rem;
+}
+
+#help{
+    display: flex;
+    height: 4rem;
+    width: 83vw;
+    background-color:#0077B6;
+    border-radius: 20px;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+
+#text2{
+    height: 2rem;
+    width: 16vw;
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    margin-left: 1rem;
+}
+
+#text{
+    height: 4rem;
+    width: 70vw;
+    margin-bottom: 2rem;
+    margin-left:10rem ;
+    font-size: 40px;
+    text-align: center;
+}
+
+.form{
+    margin-top: 1rem;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#search-bar{
+    width: 70vw;
+    height: 2rem;
+    background-color: #0077B6;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#appointbar{
+    height: 5rem;
+    width: 68vw;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 12rem;
+    display: flex;
+}
+
+.search{
+    height: 3rem;
+    width: 18rem;
+    background-color: #0077B6;
+    margin-left: 1.8rem;
+    margin-top: 0.8rem;
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#find{
+    height: 3rem;
+    width: 14rem;
+    background-color: #608AB0;
+    border-radius: 15px;
+    margin-left: 3rem;
+    margin-top: 0.8rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#text4{
+    margin-top: 6px;
+    font-size: 26px;
+    color: black;
+    font-weight:600;
+}
+
+#boxes{
+    display: flex;
+    margin-left: 11.5rem;
+    width: 60rem;
+    justify-content: space-evenly;
+}
+
+#profile{
+    background-image:url("profile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    display: inline-flex;
+    /* margin: auto; */
+    height: 8rem;
+    width: 10rem;
+    background-color: white;
+    margin-top: 5rem;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1-img{
+  margin: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+.box1_p{
+  display: flex;
+}
+#footbar1{
+    width: 100vw;
+    height: 15rem;
+    background-color: #0077B6;
+    display: flex;
+}
+#footbar2{
+  width: 100vw;
+background-color: #A9D6E5;
+display: flex;
+height: 10rem;
+}
+
+#name,#age,#Symptoms{
+    background-color:#b6dcff;
+    border-radius: 5px;
+    font-weight: 700;
+    height:25px;
+    padding-left: 5px;
+}
+
+#Symptoms{
+    cursor: pointer;
+}
+
+#submit{
+    background-color: rgb(15, 146, 15);
+    color: white;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor:pointer;
+    margin-left: 15px;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+}
+
+#info{
+    height: 100px;
+    width: 30rem;
+    margin-left:100px;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 800;
+}
+
+.info1{
+   display: flex;
+    height: 30px;
+    width:50rem ;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.info-contactUs{
+  width: 100vw;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 800;
+  color: black;
+  margin-left: 100px;
+}
+
+#extra-info{
+    height: 200px;
+    width: 40rem;
+    text-align: justify;
+    word-spacing:3px;
+}
+
+.copyright{
+  width: 100vw;
+  height: 3rem;
+  background-color: #0077B6;
+  display: flex;
+  justify-content: center;
+  word-spacing:3px;
+  padding-top: 20px;
+  color: white;
+}
+
+.contactUs-icon{
+  margin-top: 8px;
+  padding-left: 4px;
+  color: darkblue;
+}
+
+/* Adding a css for the cure box  */
+
+.solution-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #A9D6E5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.solution-box h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+.solution-box p {
+  font-weight: bolder;
+    margin: 0;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}

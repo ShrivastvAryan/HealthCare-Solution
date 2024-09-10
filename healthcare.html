@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare Solutions</title>
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="healthcare.css">
+</head>
+<body>
+<div id="main">
+    <div id="navbar">
+        <div id="img-logo"></div>
+        <div id="upper-nav">
+            <div id="text3">
+
+                <div id="find-dr" class="up-nav"><img src="profile.svg"></a></div>
+                <div id="blogs" class="up-nav"> <a href="https://mohfw.gov.in/">India Healthcare</a></div>
+                <div id="My-profile" class="up-nav"><a href="#FindDoctor">Find Doctors</a></div>
+                <div id="About-us" class="up-nav"><a href="#AboutUs">About Us</a></div>
+                <div id="phone-no" class="up-nav"><a href="#ContactUs">Contact Us</a></div>
+                <div id="Emergency" class="up-nav"><button class="emergency-button" onclick="emergency_button()">Emergency</button></div>
+            </div>
+        </div>
+    </div>
+    <div id="mid">
+        <div id="help">
+            <div id="text2">Can We Help You?</div>
+            <form action="submit" method="post" id="form1">
+            <div  class="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div  class="form">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="110" required>
+            </div>
+            <div class="form">
+                Select the Symptoms
+               <select id="Symptoms" name="Symptoms">
+               </select>
+            </div>
+            <div  class="form">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+            </form>
+        </div>
+
+        <div class="overlay" id="overlay" onclick="hideSolution()"></div>
+        <div class="solution-box" id="solutionBox">
+            <h3 id="solutionTitle"></h3>
+            <p id="solutionText"></p>
+        </div>
+
+        <section id="FindDoctor">
+          <div id="text">Search Doctors Near You</div>
+          <div id="appointbar">
+             <select id="location" name="location" class="search">
+             </select>
+             <select id="doctor-list" name="doctor-list" class="search">
+             </select>
+              <div id="find"><p id="text4">Find Doctor</p></div>
+          </div>
+        </section>
+
+        <div id="boxes">
+            <div class="box1" id="box1" onclick="boxes_text1()">
+              <div class="box1-img">
+                <img class="boxes-img" src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/bookappt_icon.svg" alt="book_appointement">
+              </div>
+                <p>Book Appointment</p>
+            </div>
+            <div class="box1" id="box2" onclick="boxes_text2()">
+              <div class="box1-img">
+                <img class="boxes-img" src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/bookhelathcheck_icon.svg" alt="book_health_checkUp">
+              </div>
+              <p>Book Health Check Up</p>
+            </div>
+            <div class="box1" id="box3" onclick="boxes_text3()" >
+              <div class="box1-img">
+                <img class="boxes-img" src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/consultonline_icon.svg" alt="consult_online">
+              </div>
+              <p>Consult Online</p>
+            </div>
+            <div class="box1" id="box4" onclick="boxes_text4()">
+              <div class="box1-img">
+                <img class="boxes-img" src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/buymedicines_icon.svg" alt="buy_medicine">
+              </div>
+              <p>Buy Medicine</p>
+            </div>
+            <div class="box1" id="box5" onclick="boxes_text5()">
+              <div class="box1-img">
+                <img class="boxes-img" src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/finddoctor_icon.svg" alt="health_records">
+              </div>
+              <p>View Health Records</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="footbar1">
+
+      <section id="AboutUs">
+        <div id="extra-info">
+            <div id="info">About Us :
+            <div class="info1">The project is developed with a vision to ease the healthcare services. At first stage of this project, we aim to provide information of limited no. of symptoms. In future, we are targeting to provide user with 100+ symptoms from our data base and recommending nearest doctor by expanding our database to 300+ cities. </div>
+        </div>
+      </section>
+
+      </div>
+
+    </div>
+
+    <div id="footbar2">
+      <section id="ContactUs">
+        <div class="info-contactUs">
+            CONTACT US :
+            <div class="info1">
+              <h3>Aryan Shrivastava:</h3>
+              <a href="mailto:asguy29@gmail.com"><i class="fa-solid fa-envelope contactUs-icon"></i></a>
+              <a href="https://www.linkedin.com/in/aryan-shrivastava-973b97309/"><i class="fa-brands fa-linkedin contactUs-icon "></i></a>
+            </div>
+
+            <div class="info1">
+              <h3>Dharmesh Yadav</h3>
+              <a href="mailto:yadavdharmesh2306@gmail.com"><i class="fa-solid fa-envelope contactUs-icon"></i></a>
+              <a href="https://www.linkedin.com/in/dharmesh-yadavoprofile"><i class="fa-brands fa-linkedin contactUs-icon "></i></a>
+            </div>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="copyright">
+        &copy; 2024 HealthCare System. All rights reserved.
+    </div>
+
+
+</div>
+<script src="healthcare.js"></script>
+</body>
+</html>
